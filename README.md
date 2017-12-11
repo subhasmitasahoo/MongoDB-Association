@@ -38,7 +38,7 @@ Wiki definition
   1. Embedding data
       In this approach we embed a complete document inside another document. (Compare document to tables in SQL)
       For example: Consider two entities USER(name, email,posts) and POST(title, content).
-      Here the document would look something like this.
+      Here the document would look something like this.__
         {
           \_id: 123452,
           name: "Queena",
@@ -57,7 +57,7 @@ Wiki definition
           ]
         }
    2.  Referencing data:
-          In this approach, only the id of the document is stored inside anothee document. And using the id, the document can           be referred when needed. For example, In the example below, id of multiple POSTs is stored inside the USER document.
+          In this approach, only the id of the document is stored inside anothee document. And using the id, the document can           be referred when needed. For example, In the example below, id of multiple POSTs is stored inside the USER document.__
         {
           \_id: 123452,
           name: "Queena",
