@@ -40,11 +40,10 @@ Wiki definition
       For example: Consider two entities USER(name, email,posts) and POST(title, content).
       Here the document would look something like this.    
         {
-          \_id: 123452,
-          name: "Queena",
-          email: "queenaiam@gmail.com",
-          posts:\[
-                  {
+          \_id: 123452,  
+          \name: "Queena",  
+          \email: "queenaiam@gmail.com",  
+          \posts:\[{
                     \_id: 5a2e3be2b3ca8a59d8dcffa9,
                     title: "Diet",
                     content: "I will be on diet from tomorrow"
