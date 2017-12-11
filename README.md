@@ -40,7 +40,7 @@ Wiki definition
       For example: Consider two entities USER(name, email,posts) and POST(title, content).
       Here the document would look something like this.     
   **2. Referencing data:**   
-          In this approach, only the id of the document is stored inside anothee document. And using the id, the document can be referred when needed. For example, In the example below, id of multiple POSTs is stored inside the USER document.  
+          In this approach, only the id of the document is stored inside anothee document. And using the id, the document can       be referred when needed. For example, In the example below, id of multiple POSTs is stored inside the USER document.  
         
 
  
