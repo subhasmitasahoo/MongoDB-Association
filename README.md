@@ -36,7 +36,7 @@ Wiki definition
  ### Implementation of Association in MongoDB
   It can me implemented using two approaches:  
   **1. Embedding data:** 
-      In this approach we embed a complete document inside another document. (Compare document to tables in SQL)
+          In this approach we embed a complete document inside another document. (Compare document to tables in SQL)
       For example: Consider two entities USER(name, email,posts) and POST(title, content).
       Here the document would look something like this.     
   **2. Referencing data:** 
