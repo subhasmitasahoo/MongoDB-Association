@@ -39,24 +39,24 @@ Wiki definition
       In this approach we embed a complete document inside another document. (Compare document to tables in SQL)
       For example: Consider two entities USER(name, email,posts) and POST(title, content).
       Here the document would look something like this.    
-        { . 
+        {
           \_id: 123452,  
           name: "Queena",  
           email: "queenaiam@gmail.com",  
-          posts:\[ . 
-                  { .  
+          posts:\[
+                  { 
                     \_id: 5a2e3be2b3ca8a59d8dcffa9,  
                     title: "Diet",  
-                    content: "I will be on diet from tomorrow" . 
+                    content: "I will be on diet from tomorrow"
                   },  
-                    content: "I will be on diet from tomorrow" . 
-                  { . 
+                    content: "I will be on diet from tomorrow"
+                  {
                     \_id: 5a2e3bcbf706bc59c232fec5,  
                     title: "Coding",  
-                    content: "I love coding" . 
-                  } . 
-          ] . 
-        } . 
+                    content: "I love coding"
+                  }
+          ]
+        } 
    2.  Referencing data:
           In this approach, only the id of the document is stored inside anothee document. And using the id, the document can be referred when needed. For example, In the example below, id of multiple POSTs is stored inside the USER document.  
         {
