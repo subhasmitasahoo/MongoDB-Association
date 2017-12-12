@@ -4,15 +4,19 @@ A sample application to demonstrate Association of Entities in MongoDB
 ## Theory
 
 ### Definition
+<p>
 Wiki definition
-
+<br/>
 **Association** defines a relationship between classes of objects that allows one object instance to cause another to perform an action on its behalf. 
 
-It basically allows us to connect separate pieces of data or different entities of a complete system.There can be many types of relationship between different entities. We can group all relations into three categories:
-**1. One-to-one
-2. One-to-many
-3. Many-to-many**
+It basically allows us to connect separate pieces of data or different entities of a complete system.There can be many types of relationship between different entities. We can group all relations into three categories:<br />
 
+<ol>
+  <li>One-to-one</li>
+  <li>One-to-many</li>
+  <li>Many-to-many</li>
+ </ol>
+ </p>
 <h2> One-to-one </h2>
 Wiki definition
 
