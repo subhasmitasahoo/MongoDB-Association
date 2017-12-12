@@ -26,10 +26,8 @@ It basically allows us to connect separate pieces of data or different entities 
 <strong>Wiki definition</strong><br/>
   A <strong>one-to-many relationship</strong> is a type of cardinality that refers to the relationship between two entities (see also entity–relationship model) A and B in which an element of A may be linked to many elements of B, but a member of B is linked to only one element of A.
   <br/><strong>Example</strong><br/>
-  Consider Facebook. We can divide it into multiple separate entities, such as User, Comments, Posts etc. But they are not completely isolated from each other. The application is build from the associations of them.<br/>
-  For example, consider User and Comments. Every comment is always written by a user.It doesnt exist, unless a user writes it. Hence, there is a relation between these two. Now, consider the relationship between them. A user can have zero or more comments, but a comment can have only one user at a time. i.e. A particular comment is always written by only one user.<br/>
-  For example, Consider, you have updated your profile picture. And you have got more than 500 likes and 100 comments, as you are awesome. But there is a particular comment that caught your attention, "You are my evergreen Crush." And now you check who commented this. And you find out a single name. Now, as you are too excited to know the person more who has cruch on you, you marched forward to check the persons profile. And there you got to know, that person has replied to others comments on his/her own profile picture.(IMP:Reply is also a comment). Ok, now close facebook and read this futher. <br/>
-  So, now you realise that, Oh,yaah!! A user can have multiple comments, but a comment is always written by only one User. So the relationship between User and Comment is ONE-TO-MANY. 
+  Consider Facebook. We can divide it into multiple separate entities, such as User, Comments, Posts etc. And all of these are related to each other.<br/>
+  Lets consider two of them, User and Comments. Every comment is always written by a user. Hence, there is a relationsip between them. Now, lets try to know more about the nature of their relationship. A user can always have zero or more comments, but a comment is always written by only one user. Hence, it is a one to many relationship (Here, A is User and B is Comment).<br/>
   </p>
 <h2> Many-to-many </h2>
 <p>
