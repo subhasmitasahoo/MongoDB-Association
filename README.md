@@ -48,7 +48,7 @@ It basically allows us to connect separate pieces of data or different entities 
 <h3> Implementation of Association in MongoDB </h3><br/>
 <p> It can me implemented using two approaches:<br/> 
   <strong>1. Embedding data:</strong>
-          In this approach we embed a complete document inside another document. (Compare document to tables in SQL)
+         In this approach we embed a complete document inside another document. (Compare document to tables in SQL)
       For example: Consider two entities USER(name, email,posts) and POST(title, content).
       Here the document would look something like this.<br/>   
   <strong>2. Referencing data:</strong> 
