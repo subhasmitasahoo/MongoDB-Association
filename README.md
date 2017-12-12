@@ -13,7 +13,7 @@ It basically allows us to connect separate pieces of data or different entities 
 2. One-to-many
 3. Many-to-many**
 
-### One-to-one
+<h2> One-to-one </h2>
 Wiki definition
 
   A one-to-one relationship is a type of cardinality that refers to the relationship between two entities (see also entity–relationship model) A and B in which one element of A may only be linked to one element of B, and vice versa.
@@ -31,7 +31,7 @@ Wiki definition
   
   For example, Consider, you have updated your profile picture. And you have got more than 500 likes and 100 comments, as you are awesome. But there is a particular comment that caught your attention, "You are my evergreen Crush." And now you check who commented this. And you find out a single name. Now, as you are too excited to know the person more who has cruch on you, you marched forward to check the persons profile. And there you got to know, that person has replied to others comments on his/her own profile picture.(IMP:Reply is also a comment). Ok, now close facebook and read this futher. 
   
-  So, now you realise that, Oh,yaah!! A user can have multiple comments, but a comment is always written by only one User. So the relationship between User and Comment is ONE-TO-MANY.
+  So, now you realise that, Oh,yaah!! A user can have multiple comments, but a comment is always written by only one User. So the relationship between User and Comment is ONE-TO-MANY. 
   
 ### Many-to-many
   A many-to-many relationship is a type of cardinality that refers to the relationship between two entities A and B in which A may contain a parent instance for which there are many children in B and vice versa.
