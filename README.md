@@ -45,10 +45,8 @@ It basically allows us to connect separate pieces of data or different entities 
    <br />
  [You can learn more about differences in association between SQL and NoSQL Databse.](https://medium.com/@dis_is_patrick/mongodb-relations-26201385b919)
  
-<h3> Implementation of Association in MongoDB <h3><br/>
-<p>
-  It can me implemented using two approaches:  
-  
+<h3> Implementation of Association in MongoDB </h3><br/>
+<p> It can me implemented using two approaches:<br/> 
   <strong>1. Embedding data:</strong>
           In this approach we embed a complete document inside another document. (Compare document to tables in SQL)
       For example: Consider two entities USER(name, email,posts) and POST(title, content).
