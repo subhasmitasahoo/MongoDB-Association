@@ -1,5 +1,5 @@
 <h1> MongoDB-Association </h1>
-A sample application to demonstrate Association of Entities in MongoDB
+A sample project to demonstrate Association of Entities in MongoDB
 
 <h2> Theory </h2>
 
