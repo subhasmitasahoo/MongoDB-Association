@@ -50,7 +50,7 @@ It basically allows us to connect separate pieces of data or different entities 
   <strong>1. Embedding data:</strong>
           In this approach we embed a complete document inside another document. (Compare document to tables in SQL)
       For example: Consider two entities USER(name, email,posts) and POST(title, content).
-      Here the document would look something like this.     
+      Here the document would look something like this.<br/>   
   <strong>2. Referencing data:</strong> 
           In this approach, only the id of the document is stored inside anothee document. And using the id, the document can       be referred when needed. For example, In the example below, id of multiple POSTs is stored inside the USER document.  
      </p>   
